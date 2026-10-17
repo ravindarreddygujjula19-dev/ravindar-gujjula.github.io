@@ -1,0 +1,290 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Ravindar Reddy Gujjula | Cyber Security Analyst</title>
+  <meta name="description" content="Portfolio and security blog of Ravindar Reddy Gujjula, Cyber Security Analyst">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=JetBrains+Mono:wght@400;500;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="bg-grid" aria-hidden="true"></div>
+  <div class="bg-glow glow-1" aria-hidden="true"></div>
+  <div class="bg-glow glow-2" aria-hidden="true"></div>
+
+  <header class="site-header">
+    <a href="#home" class="logo"><span class="logo-mark">&lt;/&gt;</span> Ravindar</a>
+    <button class="menu-toggle" aria-label="Toggle menu">&#9776;</button>
+    <nav class="nav">
+      <a href="#about">About</a>
+      <a href="#experience">Experience</a>
+      <a href="#skills">Skills</a>
+      <a href="#certifications">Certifications</a>
+      <a href="#achievements">Achievements</a>
+      <a href="#projects">Projects</a>
+      <a href="#blog">Blog</a>
+      <a href="#contact">Contact</a>
+      <button id="theme-toggle" aria-label="Toggle light/dark mode">&#9680;</button>
+    </nav>
+  </header>
+
+  <main>
+    <section id="home" class="hero">
+      <div class="hero-text">
+        <p class="badge"><span class="dot"></span> Open to opportunities</p>
+        <h1>Hi, I'm <span class="gradient-text">Ravindar Reddy Gujjula</span></h1>
+        <p class="role"><span class="role-title">Cyber Security Analyst</span> <span class="typed-wrap">&middot; <span id="typed" data-phrases='["Threat Detection","Incident Response","Vulnerability Management","SOC Operations"]'></span><span class="cursor">|</span></span></p>
+        <p class="tagline">I help organizations detect, investigate and defend against cyber threats, turning complex security problems into clear, practical actions.</p>
+        <div class="hero-actions">
+          <a href="#projects" class="btn btn-primary">View my work</a>
+          <a href="#" class="btn btn-ghost editlink" target="_blank" rel="noopener">Download resume</a>
+          <a href="#contact" class="btn btn-ghost">Get in touch</a>
+        </div>
+      </div>
+
+      <div class="terminal" aria-hidden="true">
+        <div class="terminal-bar">
+          <span class="tdot r"></span><span class="tdot y"></span><span class="tdot g"></span>
+          <span class="terminal-title">analyst@soc:~</span>
+        </div>
+        <pre class="terminal-body"><span class="p">$</span> whoami
+<span class="o">ravindar_reddy_gujjula</span>
+<span class="p">$</span> cat focus.txt
+<span class="o">threat detection
+incident response
+vulnerability management</span>
+<span class="p">$</span> status
+<span class="ok">&#10003; all systems monitored</span><span class="cursor">&#9608;</span></pre>
+      </div>
+    </section>
+
+    <!-- EDIT: Numbers at a glance. Change the number and the label under it -->
+    <section class="section tight">
+      <div class="stats">
+        <div class="stat"><span class="stat-num">5+</span><span class="stat-label">Years of experience</span></div>
+        <div class="stat"><span class="stat-num">6</span><span class="stat-label">Certifications</span></div>
+        <div class="stat"><span class="stat-num">100+</span><span class="stat-label">Incidents handled</span></div>
+        <div class="stat"><span class="stat-num">10+</span><span class="stat-label">Projects delivered</span></div>
+      </div>
+    </section>
+
+    <!-- EDIT: About text and the Role / Focus / Interests facts -->
+    <section id="about" class="section">
+      <p class="kicker">// about</p>
+      <h2>About me</h2>
+      <div class="about-grid">
+        <p>I'm a Cyber Security Analyst focused on protecting systems and data. I work on threat detection, incident response and vulnerability management, and I enjoy turning complex security problems into clear, practical actions.</p>
+        <ul class="facts">
+          <li><span>Role</span> Cyber Security Analyst</li>
+          <li><span>Focus</span> Blue team &amp; SOC operations</li>
+          <li><span>Interests</span> Threat hunting, automation</li>
+        </ul>
+      </div>
+    </section>
+
+    <!-- EDIT: Career. Each job is one entry; bullets are the achievements under it -->
+    <section id="experience" class="section">
+      <p class="kicker">// experience</p>
+      <h2>Career journey</h2>
+      <div id="exp-list" class="timeline" data-kind="job" data-add="+ Add job">
+        <article class="job">
+          <div class="job-head">
+            <h3>Cyber Security Analyst</h3>
+            <span class="company">[Sample] Your Current Company</span>
+            <span class="dates">2023 &ndash; Present</span>
+          </div>
+          <p class="job-loc">City, Country</p>
+          <ul>
+            <li>Monitor and triage security alerts in the SIEM and escalate confirmed incidents.</li>
+            <li>Investigate phishing and malware cases and document findings and remediation.</li>
+            <li>Track vulnerabilities and work with teams to prioritize and close them.</li>
+          </ul>
+        </article>
+        <article class="job">
+          <div class="job-head">
+            <h3>Junior Security Analyst</h3>
+            <span class="company">[Sample] Previous Company</span>
+            <span class="dates">2021 &ndash; 2023</span>
+          </div>
+          <p class="job-loc">City, Country</p>
+          <ul>
+            <li>First-line alert monitoring and ticket handling in the security operations team.</li>
+            <li>Wrote runbooks that cut handling time for common alert types.</li>
+          </ul>
+        </article>
+      </div>
+
+      <h3 class="subhead">Education</h3>
+      <div id="edu-list" class="timeline" data-kind="edu" data-add="+ Add education">
+        <article class="job">
+          <div class="job-head">
+            <h3>B.Tech in Computer Science</h3>
+            <span class="company">[Sample] Your University</span>
+            <span class="dates">2017 &ndash; 2021</span>
+          </div>
+        </article>
+      </div>
+    </section>
+
+    <!-- EDIT: Skills. Use + Add skill in edit mode to add more -->
+    <section id="skills" class="section">
+      <p class="kicker">// skills</p>
+      <h2>Skills &amp; tools</h2>
+      <div class="skill-grid" data-kind="skill" data-add="+ Add skill">
+        <div class="skill tilt"><span class="icon">&#128269;</span><h3>Threat detection</h3><p>Monitoring, alert triage, log analysis</p></div>
+        <div class="skill tilt"><span class="icon">&#128680;</span><h3>Incident response</h3><p>Containment, investigation, recovery</p></div>
+        <div class="skill tilt"><span class="icon">&#128737;</span><h3>Vulnerability management</h3><p>Scanning, prioritization, remediation</p></div>
+        <div class="skill tilt"><span class="icon">&#128202;</span><h3>SIEM</h3><p>Splunk, Microsoft Sentinel</p></div>
+        <div class="skill tilt"><span class="icon">&#128220;</span><h3>Risk &amp; compliance</h3><p>Frameworks, policies, reporting</p></div>
+      </div>
+    </section>
+
+    <!-- EDIT: Certifications. Put the verification link in the "Verify credential" link -->
+    <section id="certifications" class="section">
+      <p class="kicker">// certifications</p>
+      <h2>Certifications</h2>
+      <div class="cert-grid" data-kind="cert" data-add="+ Add certification">
+        <article class="cert tilt">
+          <span class="icon">&#127941;</span>
+          <h3>Security+</h3>
+          <p class="issuer">CompTIA</p>
+          <p class="cert-meta">[Sample] Issued 2024 &middot; ID: XXXXXX</p>
+          <a href="#" class="editlink" target="_blank" rel="noopener">Verify credential &rarr;</a>
+        </article>
+        <article class="cert tilt">
+          <span class="icon">&#127941;</span>
+          <h3>SC-200 Security Operations Analyst</h3>
+          <p class="issuer">Microsoft</p>
+          <p class="cert-meta">[Sample] Issued 2024 &middot; ID: XXXXXX</p>
+          <a href="#" class="editlink" target="_blank" rel="noopener">Verify credential &rarr;</a>
+        </article>
+        <article class="cert tilt">
+          <span class="icon">&#127941;</span>
+          <h3>Splunk Core Certified User</h3>
+          <p class="issuer">Splunk</p>
+          <p class="cert-meta">[Sample] Issued 2023 &middot; ID: XXXXXX</p>
+          <a href="#" class="editlink" target="_blank" rel="noopener">Verify credential &rarr;</a>
+        </article>
+      </div>
+    </section>
+
+    <!-- EDIT: Achievements, awards and recognition -->
+    <section id="achievements" class="section">
+      <p class="kicker">// achievements</p>
+      <h2>Achievements</h2>
+      <div class="ach-grid" data-kind="ach" data-add="+ Add achievement">
+        <article class="achv tilt">
+          <span class="icon">&#127942;</span>
+          <h3>Recognition award</h3>
+          <p>[Sample] Recognized for outstanding performance in incident handling.</p>
+        </article>
+        <article class="achv tilt">
+          <span class="icon">&#128201;</span>
+          <h3>Reduced alert noise</h3>
+          <p>[Sample] Tuned detection rules to cut false positives by X%.</p>
+        </article>
+        <article class="achv tilt">
+          <span class="icon">&#127937;</span>
+          <h3>Capture the Flag</h3>
+          <p>[Sample] Placed in the top X of a security competition.</p>
+        </article>
+      </div>
+    </section>
+
+    <!-- EDIT: Projects. Each card is one project. Put your project link in the link -->
+    <section id="projects" class="section">
+      <p class="kicker">// projects</p>
+      <h2>Projects</h2>
+      <div class="cards" data-kind="project" data-add="+ Add project">
+        <article class="card tilt">
+          <span class="tag">SIEM</span>
+          <h3>SIEM Threat Detection Lab</h3>
+          <p>[Sample] Built a home lab with Splunk to ingest Windows and firewall logs, and wrote correlation rules and dashboards to detect brute-force logins and suspicious PowerShell activity.</p>
+          <a href="#" class="editlink">View project &rarr;</a>
+        </article>
+        <article class="card tilt">
+          <span class="tag">VULN MGMT</span>
+          <h3>Vulnerability Assessment Report</h3>
+          <p>[Sample] Scanned a test network with Nessus and Nmap, prioritized findings by CVSS and business risk, and wrote a remediation plan for the top issues.</p>
+          <a href="#" class="editlink">View project &rarr;</a>
+        </article>
+        <article class="card tilt">
+          <span class="tag">IR</span>
+          <h3>Incident Response Playbook</h3>
+          <p>[Sample] Designed a phishing and ransomware response playbook aligned to NIST 800-61, covering detection, containment, eradication and recovery steps.</p>
+          <a href="#" class="editlink">View project &rarr;</a>
+        </article>
+      </div>
+    </section>
+
+    <!-- EDIT: Blog. In edit mode use "+ New post" to write. Each post is one article below -->
+    <section id="blog" class="section">
+      <p class="kicker">// blog</p>
+      <h2>Security blog</h2>
+      <p class="muted section-intro">Notes on threats, tools and lessons from the SOC.</p>
+      <div id="blog-list" class="blog-grid" data-kind="post" data-add="+ New post" data-prepend="1">
+        <article class="post tilt" tabindex="0">
+          <span class="tag">THREAT INTEL</span>
+          <h3 class="post-title">How I triage a suspicious email, step by step</h3>
+          <p class="post-date">Oct 17, 2026</p>
+          <p class="post-excerpt">[Sample post] A simple, repeatable process for checking headers, links and attachments before deciding what to do.</p>
+          <div class="post-body" hidden>
+            <p>Phishing is still the most common way attackers get a first foothold. This is the simple process I follow when a suspicious email lands in my queue.</p>
+            <h2>1. Check the headers</h2>
+            <p>Compare the <code>From</code>, <code>Reply-To</code> and <code>Return-Path</code> fields. If they point to different domains, treat that as a red flag. Also check the SPF, DKIM and DMARC results.</p>
+            <h2>2. Inspect links and attachments</h2>
+            <ul>
+              <li>Hover over links and compare the real address with the displayed text.</li>
+              <li>Never open attachments on your own machine. Use a sandbox.</li>
+              <li>Look up the domain age and reputation.</li>
+            </ul>
+            <h2>3. Decide and document</h2>
+            <p>If it is malicious, block the sender and URLs, search for other recipients, and write down what you found so the next analyst can reuse it.</p>
+            <blockquote>Good documentation turns one investigation into a playbook.</blockquote>
+          </div>
+          <span class="read">Read more &rarr;</span>
+        </article>
+        <article class="post tilt" tabindex="0">
+          <span class="tag">SIEM</span>
+          <h3 class="post-title">Getting started with SIEM detection rules</h3>
+          <p class="post-date">Oct 10, 2026</p>
+          <p class="post-excerpt">[Sample post] What makes a good detection rule, and how to keep false positives under control.</p>
+          <div class="post-body" hidden>
+            <p>Write your post here. In edit mode, open this post with the pencil button to change it.</p>
+          </div>
+          <span class="read">Read more &rarr;</span>
+        </article>
+      </div>
+    </section>
+
+    <!-- EDIT: Contact. Use + Add contact for any extra link (X, Medium, phone, ...) -->
+    <section id="contact" class="section">
+      <p class="kicker">// contact</p>
+      <h2>Let's connect</h2>
+      <p class="muted section-intro">Want to work together or just talk security? Send me a message.</p>
+      <div class="contact-grid" data-kind="contact" data-add="+ Add contact">
+        <div class="contact-item"><span class="ci-label">Email</span><a class="ci-link editlink" href="mailto:YOUR-EMAIL@example.com">YOUR-EMAIL@example.com</a></div>
+        <div class="contact-item"><span class="ci-label">LinkedIn</span><a class="ci-link editlink" href="https://www.linkedin.com/in/YOUR-NAME" target="_blank" rel="noopener">linkedin.com/in/YOUR-NAME</a></div>
+        <div class="contact-item"><span class="ci-label">GitHub</span><a class="ci-link editlink" href="https://github.com/YOUR-USERNAME" target="_blank" rel="noopener">github.com/YOUR-USERNAME</a></div>
+        <div class="contact-item"><span class="ci-label">Location</span><span class="ci-text">City, Country</span></div>
+      </div>
+      <form id="contact-form" class="form">
+        <input type="text" name="name" placeholder="Your name" required>
+        <input type="email" name="email" placeholder="Your email" required>
+        <textarea name="message" rows="5" placeholder="Your message" required></textarea>
+        <button type="submit" class="btn btn-primary">Send message</button>
+        <p id="form-status" role="status"></p>
+      </form>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <p>&copy; <span id="year"></span> Ravindar Reddy Gujjula. All rights reserved.</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
